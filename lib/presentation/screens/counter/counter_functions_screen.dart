@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:hello_world_app/presentation/widgets/custom_button.dart';
 
 class CounterFunctionsScreen extends StatefulWidget {
   const CounterFunctionsScreen({super.key});
@@ -43,25 +44,26 @@ class _CounterFunctionsScreenState extends State<CounterFunctionsScreen> {
         floatingActionButton: Column(
           mainAxisAlignment: MainAxisAlignment.end,
           children: [
-            FloatingActionButton(
-                shape: StadiumBorder(),
-                onPressed: () {
-                  setState(() {
-                    clickCounter++;
-                  });
-                },
-                child: Icon(Icons.plus_one)),
+            CustomButton(
+              icon: Icons.plus_one,
+              onPressed: () {
+                setState(() {
+                  clickCounter++;
+                });
+              },
+            ),
             SizedBox(
               height: 10,
             ),
-            FloatingActionButton(
-                shape: StadiumBorder(),
-                onPressed: () {
-                  setState(() {
-                    clickCounter--;
-                  });
-                },
-                child: Icon(Icons.exposure_minus_1_outlined))
+            CustomButton(
+              icon: Icons.exposure_minus_1,
+              onPressed: () {
+                if (clickCounter == 0) return;
+                setState(() {
+                  clickCounter--;
+                });
+              },
+            )
           ],
         ));
   }
