@@ -11,10 +11,10 @@ This is my first Flutter mobile application. It is a simple counter app where yo
 ## Screenshots
 
 <div style="display: flex; justify-content: center;">
-  <img src="assets/images/001.jpg" alt="Screenshot 2" height="400" style="margin-right: 10px;">
-  <img src="assets/images/002.jpg" alt="Screenshot 2" height="400" style="margin-right: 10px;">
-  <img src="assets/images/003.jpg" alt="Screenshot 1" height="400" style="margin-right: 10px;">
-  <img src="assets/images/004.jpg" alt="Screenshot 2" height="400" style="margin-right: 10px;">
+  <img src="assets/images/rm_01.jpg" alt="Screenshot 2" height="400" style="margin-right: 10px;">
+  <img src="assets/images/rm_02.jpg" alt="Screenshot 2" height="400" style="margin-right: 10px;">
+  <img src="assets/images/rm_03.jpg" alt="Screenshot 1" height="400" style="margin-right: 10px;">
+  <img src="assets/images/rm_04.jpg" alt="Screenshot 2" height="400" style="margin-right: 10px;">
 </div>
 
 ## Project Structure
