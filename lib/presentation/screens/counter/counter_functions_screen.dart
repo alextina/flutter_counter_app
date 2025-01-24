@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:hello_world_app/presentation/widgets/custom_button.dart';
+import 'package:flutter_counter_app/presentation/widgets/custom_button.dart';
 
 class CounterFunctionsScreen extends StatefulWidget {
   const CounterFunctionsScreen({super.key});
